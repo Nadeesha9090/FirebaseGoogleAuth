@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.nadeesha9090.demo"
+        versionCode="10" 
+        version   = "4.0.0">
+
+
+
+    <name>Cloud App</name>
+
+    <description>
+        Cloud Application Development Course Module
+    </description>
+
+    <author href="http://thaalakaz.blogspot.com/" email="nadeesha9090@gmail.com">
+        Nadeesha Thilakarathne
+    </author>
+
+    <icon src="icons/Feed_128x128.png" />
+
+</widget>

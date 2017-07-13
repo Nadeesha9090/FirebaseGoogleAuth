@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Channeling</title>
+    
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.css" />
+	<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.js"></script>
+    
+    
+</head>
+<body>
+<div data-role="page">
+
+	<div data-role="header">
+		<a href="menu.html" data-rel="back">Home</a>
+		<h1>Arrival Alert</h1>
+	</div>
+	
+<div class="jquery-script-clear"></div>
+
+
+<div class="container">
+
+	<div class="js-spinner"> <!-- js-spinner is an important scoping class for the input controls. -->
+		<input type="number" step="1" max="150" min="0" data-stepper-debounce="400" class="js-stepper form-control">
+		
+			<div style="text-align : center;">
+				<a type="button" spinner-button="up" title="add 1" class="btn btn-primary">
+				<img src="images/add.ico" >
+				</a>
+			</div>
+
+	</div>
+</div>
+</div>
+
+<script src="js/stepper.js"></script>
+
+</body>
+</html>
